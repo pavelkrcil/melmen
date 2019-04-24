@@ -71,3 +71,4 @@ function generateCategory(category) {
       }
 --></style>`;
 }
+
