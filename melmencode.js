@@ -13,10 +13,8 @@ function generateHomepage(homepage) {
   })
   
   return res + `</div></div><style><!--
-.imgkat {
-  }
 
-.image {
+.imgkat {
   opacity: 1;
   display: block;
   width: 100%;
@@ -24,7 +22,7 @@ function generateHomepage(homepage) {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-.imgkat:hover .image {
+.imgkat:hover {
   opacity: 0.6;
 }
 -->
