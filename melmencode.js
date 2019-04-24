@@ -3,7 +3,7 @@ function escapeHtml(text) {
       .replace(/</g, "&lt;")
 }
 
-function generateHomepage() {
+function generateHomepage(homepage) {
 	let res = '<div class="kategorie"><div class="row"><div class="col-lg-12 center kategorie-nadpis"><h2>Kategorie</h2></div>';
 	homepage.forEach((cat) => {
   	res += `<div class="col-lg-4 center">
@@ -36,7 +36,7 @@ margin-bottom: 20px;
 --></style>`;
 }
 
-function generateCategory() {
+function generateCategory(category) {
 	let res = '<div id="shopproducts" class="products products-page products-block">';
 	category.forEach((cat) => {
   	res += `<div class="product col-xs-12 col-sm-6 col-md-4">
